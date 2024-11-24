@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+}
+h1{
+    font-size: 2rem;
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+#user-input{
+    width: 80%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+#search-btn{
+    width: 15%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+/* .stats-container{
+    visibility: hidden;
+} */
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #1fb9b5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background: conic-gradient(#1fb9b5 var(--progress-degree, 0%), #0f2423 0%);
+    flex-direction: column;
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.circle-med{
+    border: 4px solid #ffb700;
+    background: conic-gradient(#ffb700 var(--progress-degree, 0%), #252011 0%);
+}
+.circle-har{
+    border: 4.5px solid #ff3f3f;
+    background: conic-gradient(#ff3f3f var(--progress-degree, 0%), #271414 0%);
+}
+.stats-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+.card{
+    background-color: #283a2e;
+    min-width: 200px;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.tag{
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+}
